@@ -133,11 +133,9 @@ export default function ReviewHighlights({
         const inner = (
           <>
             <div className="flex items-center justify-between gap-3">
-              <span className="flex min-w-0 items-center gap-2">
+              <span className="flex min-w-0 items-center">
                 <SourceMark source={source.name} />
-                <span className="truncate text-sm font-bold text-primary">
-                  {source.name}
-                </span>
+                <span className="sr-only">{source.name}</span>
               </span>
               <StarRow rating={source.rating} source={source.name} />
             </div>
