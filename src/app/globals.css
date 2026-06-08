@@ -45,6 +45,7 @@
 html {
   background: var(--background);
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -64,6 +65,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
 h1,
@@ -79,6 +81,12 @@ h6 {
 
 a {
   text-underline-offset: 0.2em;
+  -webkit-touch-callout: none;
+}
+
+button {
+  -webkit-touch-callout: none;
+  touch-action: manipulation;
 }
 
 ::selection {
@@ -219,6 +227,7 @@ body > * {
   overflow: hidden;
   position: relative;
   aspect-ratio: auto;
+  contain: layout;
 }
 
 .fine-link {
@@ -230,6 +239,10 @@ body > * {
 
 .fine-link:hover {
   color: var(--accent);
+}
+
+.fine-link:active {
+  transform: scale(0.98);
 }
 
 .reveal-soft {
@@ -402,6 +415,12 @@ body > * {
 
 .legal-prose li + li {
   margin-top: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 768px) {
