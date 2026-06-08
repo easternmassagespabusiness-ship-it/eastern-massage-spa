@@ -4,7 +4,7 @@ import { cx } from "./DesignPrimitives";
 import { site } from "@/data/site";
 
 const base =
-  "inline-flex min-h-11 items-center justify-center rounded-lg px-5 py-3 text-sm font-semibold transition-colors focus-visible:outline focus-visible:ring-2 focus-visible:ring-offset-2";
+  "inline-flex min-h-11 items-center justify-center rounded-lg px-5 py-3 text-sm font-semibold transition-colors focus-visible:outline focus-visible:ring-2 focus-visible:ring-offset-2 active:scale-95";
 
 export const buttonStyles = {
   primary: `${base} bg-accent text-accent-foreground hover:bg-[var(--accent-hover)] focus-visible:ring-accent`,

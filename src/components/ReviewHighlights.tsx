@@ -92,7 +92,7 @@ function StarRow({ rating, source }: { rating: string; source: string }) {
           key={index}
           aria-hidden="true"
           viewBox="0 0 20 20"
-          className="h-4 w-4 fill-current"
+          className="h-4 w-4 fill-current will-change-auto"
         >
           <path d="m10 1.7 2.35 4.77 5.26.76-3.8 3.71.9 5.24L10 13.7l-4.7 2.48.9-5.24-3.81-3.71 5.26-.76L10 1.7Z" />
         </svg>
@@ -127,7 +127,7 @@ export default function ReviewHighlights({
         const rating = hasPlaceholder(source.rating) ? "" : source.rating;
         const count = hasPlaceholder(source.count) ? "" : source.count;
         const cardClass = cx(
-          "group rounded-lg border border-primary/10 bg-[var(--surface)] p-4 shadow-[0_4px_14px_rgba(36,53,44,0.08)] transition-colors focus-visible:outline focus-visible:ring-2 focus-visible:ring-primary",
+          "group rounded-lg border border-primary/10 bg-[var(--surface)] p-4 shadow-[0_4px_14px_rgba(36,53,44,0.08)] transition-colors focus-visible:outline focus-visible:ring-2 focus-visible:ring-primary will-change-[border-color,box-shadow]",
           url ? "hover:border-primary/30" : ""
         );
         const inner = (
