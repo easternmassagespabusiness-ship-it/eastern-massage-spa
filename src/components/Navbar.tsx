@@ -28,7 +28,7 @@ export default function Navbar() {
                 fill
                 className="object-contain object-left"
                 priority
-                unoptimized
+                loading="eager"
               />
             </span>
           </Link>
@@ -60,7 +60,7 @@ export default function Navbar() {
               aria-expanded={open}
               aria-controls="mobile-menu"
               onClick={() => setOpen((current) => !current)}
-              className="inline-flex min-h-11 items-center justify-center rounded-lg border border-primary/15 bg-[var(--surface)] px-4 py-2.5 text-sm font-semibold text-primary transition-colors hover:bg-[var(--surface-warm)] focus-visible:outline focus-visible:ring-2 focus-visible:ring-primary"
+              className="inline-flex min-h-11 items-center justify-center rounded-lg border border-primary/15 bg-[var(--surface)] px-4 py-2.5 text-sm font-semibold text-primary transition-colors hover:border-primary/30 focus-visible:outline focus-visible:ring-2 focus-visible:ring-primary"
             >
               {open ? "Close" : "Menu"}
             </button>

@@ -98,7 +98,7 @@ export function ImageFrame({
         className={cx("object-cover", imageClassName)}
         priority={priority}
         sizes={sizes}
-        unoptimized
+        loading={priority ? "eager" : "lazy"}
       />
     </div>
   );

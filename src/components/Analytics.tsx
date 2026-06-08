@@ -7,7 +7,7 @@ export default function Analytics() {
   return (
     <>
       {gtmContainerId ? (
-        <Script id="gtm-init" strategy="afterInteractive">
+        <Script id="gtm-init" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({
@@ -27,9 +27,9 @@ export default function Analytics() {
         <>
           <Script
             src={`https://www.googletagmanager.com/gtag/js?id=${ga4MeasurementId}`}
-            strategy="afterInteractive"
+            strategy="lazyOnload"
           />
-          <Script id="ga4-init" strategy="afterInteractive">
+          <Script id="ga4-init" strategy="lazyOnload">
             {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
