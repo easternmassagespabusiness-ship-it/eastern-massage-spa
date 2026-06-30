@@ -9,22 +9,11 @@ import {
   SoftPanel,
 } from "./DesignPrimitives";
 import { site } from "@/data/site";
-import { publicPractitionerBio, publicText } from "@/utils/publicContent";
 
 export default function AboutMichelle() {
-  const bio = publicPractitionerBio(site.practitioner.shortBio);
-  const credentials = publicText(
-    site.practitioner.credentials,
-    "Licensed Massage Therapist"
-  );
-  const specialties = publicText(
-    site.practitioner.specialties,
-    "Deep tissue, therapeutic massage, relaxation massage, and cupping therapy."
-  );
-
   return (
     <Section className="bg-[var(--surface)]">
-      <Shell className="grid gap-10 lg:grid-cols-[0.86fr_1.14fr] lg:items-center">
+      <Shell className="grid gap-12 lg:grid-cols-[0.86fr_1.14fr] lg:items-center">
         <div className="relative">
           <SoftPanel className="p-5">
             <ImageFrame
@@ -35,36 +24,60 @@ export default function AboutMichelle() {
               imageClassName="object-[center_22%]"
             />
           </SoftPanel>
+
           <SoftPanel className="absolute -bottom-6 left-5 right-5 p-4">
             <p className="text-sm font-semibold text-primary">
-              Licensed Massage Therapist
+              Michelle · Licensed Massage Therapist
             </p>
           </SoftPanel>
         </div>
 
         <div className="pt-8 lg:pt-0">
           <DecorativeRule className="mb-5" />
-          <SectionHeading label="Meet Michelle" title="Licensed care in Issaquah.">
-            <p>{bio}</p>
+
+          <SectionHeading
+            label="MEET MICHELLE"
+            title="Thoughtful, focused massage care in Issaquah."
+          >
+            <p>
+              Michelle provides personalized massage therapy in a calm private
+              studio, with each session shaped around your comfort, pressure
+              preference, and areas that need attention.
+            </p>
           </SectionHeading>
 
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             <SoftPanel className="p-5">
-              <h3 className="text-lg font-semibold text-primary">Credentials</h3>
-              <p className="mt-2 text-sm leading-6 text-muted">{credentials}</p>
+              <h3 className="text-lg font-semibold text-primary">
+                Personalized care
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-muted">
+                Sessions are adjusted to your goals, whether you need deep
+                tissue work, targeted therapeutic care, or relaxation.
+              </p>
             </SoftPanel>
+
             <SoftPanel className="p-5">
-              <h3 className="text-lg font-semibold text-primary">Specialties</h3>
-              <p className="mt-2 text-sm leading-6 text-muted">{specialties}</p>
+              <h3 className="text-lg font-semibold text-primary">
+                Calm studio experience
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-muted">
+                A quiet, professional space designed for comfort, recovery, and
+                focused one-on-one care.
+              </p>
             </SoftPanel>
           </div>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <BookingLink ctaLocation="homepage_about_michelle">
-              Book a Massage
+              Book Appointment
             </BookingLink>
-            <Link href="/about-michelle" className="fine-link inline-flex min-h-11 items-center">
-              Read about Michelle
+
+            <Link
+              href="/about-michelle"
+              className="fine-link inline-flex min-h-11 items-center"
+            >
+              Read About Michelle
             </Link>
           </div>
         </div>
