@@ -13,19 +13,23 @@ export default function Hero() {
             <DecorativeRule className="mb-5" />
 
             <p className="detail-label mb-4">
-              Eastern Massage Spa · Issaquah, WA
+              Licensed Massage Therapy
+Issaquah, Washington
             </p>
 
             <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] text-primary md:text-5xl lg:text-6xl">
-              Personalized massage therapy in a calm private studio.
-            </h1>
+  Therapeutic Massage
+  <br />
+  Designed Around You.
+</h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-muted">
-              Focused therapeutic massage, deep tissue work, relaxation massage,
-              and cupping therapy with Michelle in Issaquah.
-            </p>
+  Personalized therapeutic massage, deep tissue treatment,
+  relaxation massage, and dynamic cupping therapy in a quiet,
+  appointment-only studio in Issaquah.
+</p>
 
-            <ReviewHighlights className="mt-7" />
+            
 
             <CTAGroup className="mt-8">
               <BookingLink ctaLocation="homepage_hero">
@@ -44,7 +48,8 @@ export default function Hero() {
           <div className="relative min-h-[390px] md:min-h-[500px]">
             <ImageFrame
               src={site.images.hero}
-              alt="Private massage therapy room at Eastern Massage Spa in Issaquah"
+            <ReviewHighlights className="mt-7" /> 
+            alt="Private massage therapy room at Eastern Massage Spa in Issaquah"
               priority
               sizes="(max-width: 1024px) 100vw, 46vw"
               className="absolute inset-x-0 top-0 h-[380px] md:h-[480px]"
