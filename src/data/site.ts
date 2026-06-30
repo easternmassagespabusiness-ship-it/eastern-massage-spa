@@ -295,8 +295,9 @@ export const site = {
       safetyNote:
         "This service may be inappropriate for some clients. If you are pregnant, have a medical condition, recent injury, skin condition, or are unsure whether deep tissue massage is appropriate, consult a qualified healthcare professional before booking.",
       items: [
-        { name: "90 min", price: "$180" },
-        { name: "120 min", price: "$250" },
+        { name: "90 min", price: "$230" },
+        { name: "120 min", price: "$300" },
+        { name: "150 min", price: "$360" },
       ],
       faqs: [
         {
@@ -362,8 +363,9 @@ export const site = {
       safetyNote:
         "Massage may be inappropriate for some clients. If you have recent injuries, a medical condition, or uncertainty about whether massage is appropriate, consult a qualified healthcare professional before booking.",
       items: [
-        { name: "60 min", price: "$115" },
-        { name: "90 min", price: "$165" },
+        { name: "60 min", price: "$140" },
+        { name: "90 min", price: "$200" },
+        { name: "120 min", price: "$260" },
       ],
       faqs: [
         {
@@ -428,9 +430,9 @@ export const site = {
       safetyNote:
         "If you are pregnant, have recent injuries, a medical condition, or are unsure whether massage is appropriate, consult a qualified healthcare professional before booking.",
       items: [
-        { name: "60 min", price: "$105" },
-        { name: "90 min", price: "$145" },
-        { name: "120 min", price: "$230" },
+        { name: "60 min", price: "$120" },
+        { name: "90 min", price: "$180" },
+        { name: "120 min", price: "$240" },
       ],
       faqs: [
         {
@@ -527,13 +529,13 @@ export const site = {
     },
     {
       name: "Advanced Cupping Therapy (Dynamic Vacuum)",
-      price: "$30",
+      price: "$25",
       description:
         "Dynamic cupping is applied during your session to support deeper work on muscle restriction.",
     },
     {
       name: "CBD Oil Enhancement",
-      price: "$30",
+      price: "$25",
       description:
         "CBD-infused oil is used as an optional enhancement to support comfort during the session.",
     },
