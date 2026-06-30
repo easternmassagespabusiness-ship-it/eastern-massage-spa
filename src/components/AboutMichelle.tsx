@@ -27,7 +27,7 @@ export default function AboutMichelle() {
 
           <SoftPanel className="absolute -bottom-6 left-5 right-5 p-4">
             <p className="text-sm font-semibold text-primary">
-              Michelle · Licensed Massage Therapist
+              Michelle
             </p>
           </SoftPanel>
         </div>
@@ -37,33 +37,33 @@ export default function AboutMichelle() {
 
           <SectionHeading
             label="MEET MICHELLE"
-            title="Thoughtful, focused massage care in Issaquah."
+            title="Personalized therapeutic massage in a calm private studio."
           >
             <p>
-              Michelle provides personalized massage therapy in a calm private
-              studio, with each session shaped around your comfort, pressure
-              preference, and areas that need attention.
+              Michelle provides focused massage therapy in Issaquah, with each
+              session tailored to your goals, pressure preference, and areas
+              that need attention.
             </p>
           </SectionHeading>
 
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             <SoftPanel className="p-5">
               <h3 className="text-lg font-semibold text-primary">
-                Personalized care
+                Focused care
               </h3>
               <p className="mt-2 text-sm leading-6 text-muted">
-                Sessions are adjusted to your goals, whether you need deep
-                tissue work, targeted therapeutic care, or relaxation.
+                Sessions are shaped around what your body needs that day,
+                whether you want deeper work, targeted relief, or relaxation.
               </p>
             </SoftPanel>
 
             <SoftPanel className="p-5">
               <h3 className="text-lg font-semibold text-primary">
-                Calm studio experience
+                Private studio
               </h3>
               <p className="mt-2 text-sm leading-6 text-muted">
-                A quiet, professional space designed for comfort, recovery, and
-                focused one-on-one care.
+                A quiet, appointment-only space designed for comfort, recovery,
+                and focused one-on-one care.
               </p>
             </SoftPanel>
           </div>
