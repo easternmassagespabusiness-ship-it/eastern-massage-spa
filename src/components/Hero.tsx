@@ -13,9 +13,8 @@ export default function Hero() {
             <DecorativeRule className="mb-5" />
 
             <p className="detail-label mb-4">
-              Licensed Massage Therapy
-Issaquah, Washington
-            </p>
+  Licensed Massage Therapy · Issaquah, WA
+</p>
 
             <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] text-primary md:text-5xl lg:text-6xl">
   Therapeutic Massage
