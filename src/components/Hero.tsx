@@ -28,7 +28,7 @@ Issaquah, Washington
   relaxation massage, and dynamic cupping therapy in a quiet,
   appointment-only studio in Issaquah.
 </p>
-
+<ReviewHighlights className="mt-7" /> 
             
 
             <CTAGroup className="mt-8">
@@ -47,14 +47,13 @@ Issaquah, Washington
 
           <div className="relative min-h-[390px] md:min-h-[500px]">
             <ImageFrame
-              src={site.images.hero}
-            <ReviewHighlights className="mt-7" /> 
-            alt="Private massage therapy room at Eastern Massage Spa in Issaquah"
-              priority
-              sizes="(max-width: 1024px) 100vw, 46vw"
-              className="absolute inset-x-0 top-0 h-[380px] md:h-[480px]"
-              imageClassName="object-[60%_center]"
-            />
+  src={site.images.hero}
+  alt="Private massage therapy room at Eastern Massage Spa in Issaquah"
+  priority
+  sizes="(max-width: 1024px) 100vw, 46vw"
+  className="absolute inset-x-0 top-0 h-[380px] md:h-[480px]"
+  imageClassName="object-[60%_center]"
+/>
           </div>
         </div>
       </Shell>
