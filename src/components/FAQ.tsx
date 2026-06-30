@@ -7,10 +7,14 @@ export default function FAQ() {
     <Section id="faq" className="bg-[var(--background)]">
       <Shell narrow>
         <SectionHeading
-          label="Booking questions"
-          title="Common questions."
+          label="BOOKING QUESTIONS"
+          title="Before your visit."
           className="mx-auto mb-10 text-center"
-        />
+        >
+          <p>
+            Helpful details about booking, services, location, and availability.
+          </p>
+        </SectionHeading>
 
         <FAQAccordion items={site.faqs} />
       </Shell>
