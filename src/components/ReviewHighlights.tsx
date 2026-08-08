@@ -48,7 +48,7 @@ export default function ReviewHighlights({
 
   const url = googleSource ? publicUrl(googleSource.url) : "";
   const rating = "4.9";
-  const count = "82";
+  const count = "89+";
 
   const cardClass = cx(
     "group rounded-lg border border-primary/10 bg-[var(--surface)] p-4 shadow-[0_4px_14px_rgba(36,53,44,0.08)] transition-colors focus-visible:outline focus-visible:ring-2 focus-visible:ring-primary will-change-[border-color,box-shadow]",
