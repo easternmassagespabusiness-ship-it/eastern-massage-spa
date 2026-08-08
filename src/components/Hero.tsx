@@ -22,8 +22,7 @@ export default function Hero() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-muted">
-              Quiet, appointment-only studio focused on personalized care, deep
-              tissue therapy, relaxation massage, and recovery treatments.
+              Personalized therapeutic massage in Issaquah, designed to relieve tension, restore mobility, and help you feel better beyond the session.
             </p>
 
             <ReviewHighlights className="mt-7" />
