@@ -458,7 +458,7 @@ export const site = {
       subtitle: "Standalone Session",
       seoTitle: "Cupping Therapy in Issaquah, WA",
       metaDescription:
-        "Cupping therapy in Issaquah, WA to support muscle recovery, mobility, and targeted tension relief. Book your session today.",
+        "Cupping therapy in Issaquah using dynamic vaccum cupping to support muscle recovery, mobility, and targeted tension relief.",
       bookingLabel: "Book Cupping Therapy",
       bookingUrlPlaceholder: "[FRESHA_CUPPING_THERAPY_BOOKING_URL]",
       primaryKeyword: "cupping therapy Issaquah",
