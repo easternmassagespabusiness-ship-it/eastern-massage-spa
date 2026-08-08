@@ -320,9 +320,9 @@ export const site = {
     {
       slug: "targeted-therapeutic-massage",
       category: "Targeted Therapeutic Massage",
-      seoTitle: "Therapeutic Massage in Issaquah, WA",
+      seoTitle: "Therapeutic & Deep Tissue Massage in Issaquah, WA",
       metaDescription:
-        "Targeted therapeutic massage in Issaquah for focused neck, back, shoulder, and muscle tension care. Book with Eastern Massage Spa.",
+        "Targeted therapeutic and deep tissue massage in Issaquah for neck, back, shoulder, and muscle tension. Personalized pressure based on your needs.",
       bookingLabel: "Book Therapeutic Massage",
       bookingUrlPlaceholder: "[FRESHA_TARGETED_THERAPEUTIC_BOOKING_URL]",
       primaryKeyword: "therapeutic massage Issaquah",
