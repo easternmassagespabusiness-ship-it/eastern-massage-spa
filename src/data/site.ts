@@ -54,7 +54,7 @@ export const site = {
   publicNamePlaceholder: "[OFFICIAL_BUSINESS_NAME]",
   url: "https://easternmassagespa.me",
   description:
-    "Massage therapy in Issaquah, WA offering deep tissue massage, targeted therapeutic massage, relaxation massage, and cupping therapy near downtown Issaquah.",
+    "Therapeutic massage in Issaquah, WA focused on personalized care and lasting relief, including deep tissue massgae, relaxation massage, and recovery therapy.",
   phone: "(206) 750-6868",
   phoneE164: "+12067506868",
   phoneHref: "tel:+12067506868",
