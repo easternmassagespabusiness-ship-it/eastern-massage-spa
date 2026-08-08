@@ -251,12 +251,12 @@ export const site = {
       slug: "deep-tissue-therapy",
       category: "Advanced Recovery Therapy",
       subtitle: "Deep tissue precision, dynamic cupping, and CBD therapy",
-      seoTitle: "Advanced Recovery Therapy in Issaquah, WA",
+      seoTitle: "Deep Tissue Massage in Issaquah, WA|Eastern Massage Spa",
       metaDescription:
-        "Book Advanced Recovery Therapy in Issaquah, WA for focused deep tissue work, dynamic cupping, and CBD therapy.",
+        "Deep tissue massage in Issaquah with focused firm pressue, dynamic cupping, and CBD therapy for stubborn tension and recovery needs.",
       bookingLabel: "Book Advanced Recovery Therapy",
       bookingUrlPlaceholder: "[FRESHA_DEEP_TISSUE_BOOKING_URL]",
-      primaryKeyword: "advanced recovery therapy Issaquah",
+      primaryKeyword: "deep tissue massage Issaquah",
       description:
         "High-performance treatment for clients who want focused recovery work, firmer pressure, and clear session goals.",
       intro:
