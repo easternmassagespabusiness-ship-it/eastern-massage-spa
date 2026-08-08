@@ -390,7 +390,7 @@ export const site = {
       category: "Essential Relaxation Massage",
       seoTitle: "Relaxation Massage in Issaquah, WA",
       metaDescription:
-        "Relaxation and Swedish-style massage in Issaquah, WA to ease stress, calm the body, and support restorative self-care.",
+        "Relaxation massage in Issaquah with light to moderate pressure to ease stress, calm the body, and support restorative self-care.",
       bookingLabel: "Book Relaxation Massage",
       bookingUrlPlaceholder: "[FRESHA_RELAXATION_MASSAGE_BOOKING_URL]",
       primaryKeyword: "relaxation massage Issaquah",
