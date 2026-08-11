@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import AboutMichelle from "@/components/AboutMichelle";
 import Services from "@/components/Services";
+import Packages from "@/components/Packages";
 import TrustReviews from "@/components/TrustReviews";
 import FAQ from "@/components/FAQ";
 import Location from "@/components/Location";
@@ -65,6 +66,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Services />
+      <Packages />
       <AboutMichelle />
       <TrustReviews ctaLocation="homepage_reviews" />
       <FAQ />
