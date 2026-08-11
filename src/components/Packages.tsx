@@ -69,7 +69,17 @@ export default function Packages() {
           </div>
 
         </div>
-      </div>
+     <div className="text-center mt-8">
+  <a
+    href="https://www.fresha.com/book-now/eastern-wellness-center-i9qpjgss/packages?share=true&pId=812456"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-[#ad332e] text-white font-semibold px-8 py-4 rounded-xl hover:opacity-90 transition"
+  >
+    View & Purchase Packages
+  </a>
+</div>
+</div>
     </section>
   );
 }
