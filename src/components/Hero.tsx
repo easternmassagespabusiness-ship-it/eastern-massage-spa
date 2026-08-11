@@ -1,4 +1,4 @@
-import { BookingLink, CTAGroup } from "./ActionLinks";
+import { BookingLink, GiftCardLink, CTAGroup } from "./ActionLinks";
 import { DecorativeRule, ImageFrame, Shell } from "./DesignPrimitives";
 import ReviewHighlights from "./ReviewHighlights";
 import { site } from "@/data/site";
@@ -27,11 +27,15 @@ export default function Hero() {
 
             <ReviewHighlights className="mt-7" />
 
-            <CTAGroup className="mt-8">
-              <BookingLink ctaLocation="homepage_hero">
-                Book Online
-              </BookingLink>
-            </CTAGroup>
+<CTAGroup className="mt-8">
+  <BookingLink ctaLocation="homepage_hero">
+    Book Online
+  </BookingLink>
+
+  <GiftCardLink ctaLocation="homepage_hero">
+    Buy a Gift Card
+  </GiftCardLink>
+</CTAGroup>
           </div>
 
           <div className="relative min-h-[390px] md:min-h-[500px]">
