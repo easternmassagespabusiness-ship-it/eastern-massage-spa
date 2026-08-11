@@ -37,7 +37,28 @@ export function BookingLink({
     </BookNowButton>
   );
 }
-
+export function GiftCardLink({
+  children = "Buy a Gift Card",
+  ctaLocation,
+  className,
+}: {
+  children?: React.ReactNode;
+  ctaLocation: string;
+  className?: string;
+}) {
+  return (
+    <TrackedLink
+      href="https://www.fresha.com/book-now/eastern-wellness-center-i9qpjgss/gift-cards?share=true&pId=812456"
+      target="_blank"
+      rel="noopener noreferrer"
+      className={cx(buttonStyles.secondary, className)}
+      eventName="gift_card_click"
+      trackingParams={{ cta_location: ctaLocation }}
+    >
+      {children}
+    </TrackedLink>
+  );
+}
 export function DirectionsLink({
   children = "Get Directions",
   ctaLocation,
