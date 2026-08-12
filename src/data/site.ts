@@ -91,8 +91,8 @@ export const site = {
     michelle: "/photos/optimized/michelle-picture.jpg",
   },
   hoursConfirmed: true,
-  hoursText: "Open daily 10:30 AM - 8:30 PM",
-  hoursNote: "Open daily. Online booking shows the most current appointment availability.",
+  hoursText: "By appointment daily 10:30 AM - 8:30 PM",
+  hoursNote: "By appointment only. Online booking shows the most current appointment availability.",
   hours: [
     {
       label: "Monday",
