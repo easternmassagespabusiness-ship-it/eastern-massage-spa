@@ -20,7 +20,7 @@ export default function Hero() {
               Designed Around You.
             </h1>
 
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-muted">
+            <p className="mt-5 max-w-2xl text-base leading-7 text-muted md:mt-6 md:text-lg md:leading-8">
               Personalized therapeutic massage in Issaquah, designed to relieve tension, restore mobility, and help you feel better beyond the session.
             </p>
 
