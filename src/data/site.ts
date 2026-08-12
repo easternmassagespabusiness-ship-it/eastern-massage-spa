@@ -178,16 +178,6 @@ export const site = {
       },
     ],
   },
-  businessStats: [
-    {
-      label: "Appointments completed",
-      value: "784",
-    },
-    {
-      label: "Clients served",
-      value: "549",
-    },
-  ],
   locationDetails: {
     parking: "[PARKING_INSTRUCTIONS]",
     buildingEntry: "[BUILDING_ENTRY_INSTRUCTIONS]",
