@@ -70,7 +70,7 @@ export default function AboutMichellePage() {
 
             <div className="mt-8">
               <BookingLink ctaLocation="about_michelle">
-                Book a Massage
+                Reserve Your Session
               </BookingLink>
             </div>
 
