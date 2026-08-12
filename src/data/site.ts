@@ -151,7 +151,7 @@ export const site = {
     licenseNumber: "[MICHELLE_LICENSE_NUMBER_IF_PUBLIC]",
     yearsExperience: "[MICHELLE_YEARS_EXPERIENCE]",
     credentials: "Licensed Massage Therapist",
-    specialties: "[MICHELLE_SPECIALTIES]",
+    specialties: "Therapeutic massage, deep tissue massage, dynamic cupping, and relaxation massage",
     approach: "[MICHELLE_APPROACH]",
     shortBio:
       shortBio:
