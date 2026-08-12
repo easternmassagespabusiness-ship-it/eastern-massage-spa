@@ -503,12 +503,11 @@ export const site = {
         "CBD-infused oil is used as an optional enhancement to support comfort during the session.",
     },
     {
-      name: "Aromatherapy",
-      price: "$15",
-      description:
-        "description:
-  "A subtle aromatic experience designed to complement relaxation during your session.",
-    },
+  name: "Aromatherapy",
+  price: "$15",
+  description:
+    "A subtle aromatic experience designed to complement relaxation during your session.",
+},
   ] as AddonItem[],
   faqs: [
     {
