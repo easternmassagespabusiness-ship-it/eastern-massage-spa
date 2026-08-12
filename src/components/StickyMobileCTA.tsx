@@ -7,10 +7,17 @@ export default function StickyMobileCTA() {
       aria-hidden={false}
     >
       <nav aria-label="Quick booking actions" className="grid grid-cols-2 gap-2">
-        <BookingLink ctaLocation="sticky_mobile" className="min-w-0 px-3">
-          Book
+        <BookingLink
+          ctaLocation="sticky_mobile"
+          className="min-w-0 px-2 text-sm"
+        >
+          Reserve Your Session
         </BookingLink>
-        <DirectionsLink ctaLocation="sticky_mobile" className="min-w-0 px-3">
+
+        <DirectionsLink
+          ctaLocation="sticky_mobile"
+          className="min-w-0 px-3"
+        >
           Directions
         </DirectionsLink>
       </nav>
