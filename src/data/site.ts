@@ -201,7 +201,6 @@ export const site = {
     appleMaps: "[APPLE_MAPS_URL]",
     bingPlaces: "[BING_PLACES_URL]",
     yelp: "[YELP_URL]",
-    birdeye: "https://reviews.birdeye.com/eastern-massage-spa-170070692127766",
     fresha:
       "https://www.fresha.com/book-now/eastern-wellness-center-i9qpjgss/all-offer?share=true&pId=812456",
     facebook: "[FACEBOOK_URL]",
@@ -580,7 +579,6 @@ export function getOfficialProfileUrls() {
     site.profiles.appleMaps,
     site.profiles.bingPlaces,
     site.profiles.yelp,
-    site.profiles.birdeye,
     site.profiles.fresha,
     site.profiles.facebook,
     site.profiles.instagram,
