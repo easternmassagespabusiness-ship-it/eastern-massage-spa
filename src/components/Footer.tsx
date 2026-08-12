@@ -56,25 +56,31 @@ export default function Footer() {
 
         <div className="flex flex-col gap-2 md:gap-3">
           <span className="font-semibold text-primary">Services</span>
+
           <Link href="/services" className="text-muted hover:text-primary">
             All Massage Services
           </Link>
 
-          {site.services.map((service) => (
-            <Link
-              key={service.slug}
-              href={getServiceUrl(service.slug)}
-              className="text-muted hover:text-primary"
-            >
-              {service.category}
-            </Link>
-          ))}
+          <div className="hidden flex-col gap-3 md:flex">
+            {site.services.map((service) => (
+              <Link
+                key={service.slug}
+                href={getServiceUrl(service.slug)}
+                className="text-muted hover:text-primary"
+              >
+                {service.category}
+              </Link>
+            ))}
+          </div>
         </div>
 
         <div className="flex flex-col gap-2 md:gap-3">
           <span className="font-semibold text-primary">Studio</span>
 
-          <Link href="/about-michelle" className="text-muted hover:text-primary">
+          <Link
+            href="/about-michelle"
+            className="text-muted hover:text-primary"
+          >
             About Michelle
           </Link>
 
