@@ -66,7 +66,6 @@ export const site = {
   packageUrlPlaceholder: "[FRESHA_PACKAGE_URL]",
   mapUrl:
     "https://www.google.com/maps/dir//160+NW+Gilman+Blvd+Ste+216,+Issaquah,+WA+98027",
-  mapEmbedUrlPlaceholder: "[GOOGLE_MAPS_EMBED_URL]",
   address: {
     streetAddress: "160 NW Gilman Blvd Ste 216",
     suitePlaceholder: "[OFFICIAL_SUITE_OR_UNIT]",
