@@ -186,7 +186,7 @@ profiles: {
       slug: "deep-tissue-therapy",
       category: "Advanced Recovery Therapy",
       subtitle: "Deep tissue precision, dynamic cupping, and CBD therapy",
-      seoTitle: "Deep Tissue Massage in Issaquah, WA|Eastern Massage Spa",
+      seoTitle: "Deep Tissue Massage in Issaquah, WA | Eastern Massage Spa",
       metaDescription:
         "Deep tissue massage in Issaquah with focused firm pressure, dynamic cupping, and CBD therapy for stubborn tension and recovery needs.",
       bookingLabel: "Reserve Your Session",
