@@ -154,7 +154,8 @@ export const site = {
     specialties: "[MICHELLE_SPECIALTIES]",
     approach: "[MICHELLE_APPROACH]",
     shortBio:
-      "Michelle is a licensed massage therapist and the primary practitioner at Eastern Massage Spa in Issaquah.",
+      shortBio:
+  "Michelle is a licensed massage therapist at Eastern Massage Spa in Issaquah, providing personalized therapeutic massage based on each client's needs.",
     longBio:
       "Michelle is a licensed massage therapist serving clients at Eastern Massage Spa in Issaquah. Her massage work is focused, responsive, and centered on the areas clients want addressed during the appointment.",
     associations: "[PROFESSIONAL_ASSOCIATIONS]",
