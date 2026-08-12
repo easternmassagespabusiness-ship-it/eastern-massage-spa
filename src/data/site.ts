@@ -54,7 +54,7 @@ export const site = {
   publicNamePlaceholder: "[OFFICIAL_BUSINESS_NAME]",
   url: "https://easternmassagespa.me",
   description:
-    "Therapeutic massage in Issaquah, WA focused on personalized care and lasting relief, including deep tissue massgae, relaxation massage, and recovery therapy.",
+    "Therapeutic massage in Issaquah, WA focused on personalized care and lasting relief, including deep tissue massage, relaxation massage, and recovery therapy.",
   phone: "(206) 750-6868",
   phoneE164: "+12067506868",
   phoneHref: "tel:+12067506868",
@@ -253,7 +253,7 @@ export const site = {
       subtitle: "Deep tissue precision, dynamic cupping, and CBD therapy",
       seoTitle: "Deep Tissue Massage in Issaquah, WA|Eastern Massage Spa",
       metaDescription:
-        "Deep tissue massage in Issaquah with focused firm pressue, dynamic cupping, and CBD therapy for stubborn tension and recovery needs.",
+        "Deep tissue massage in Issaquah with focused firm pressure, dynamic cupping, and CBD therapy for stubborn tension and recovery needs.",
       bookingLabel: "Reserve Your Session",
       bookingUrlPlaceholder: "[FRESHA_DEEP_TISSUE_BOOKING_URL]",
       primaryKeyword: "deep tissue massage Issaquah",
@@ -458,7 +458,7 @@ export const site = {
       subtitle: "Standalone Session",
       seoTitle: "Cupping Therapy in Issaquah, WA",
       metaDescription:
-        "Cupping therapy in Issaquah using dynamic vaccum cupping to support muscle recovery, mobility, and targeted tension relief.",
+        "Cupping therapy in Issaquah using dynamic vacuum cupping to support muscle recovery, mobility, and targeted tension relief.",
       bookingLabel: "Reserve Your Session",
       bookingUrlPlaceholder: "[FRESHA_CUPPING_THERAPY_BOOKING_URL]",
       primaryKeyword: "cupping therapy Issaquah",
