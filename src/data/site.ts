@@ -82,7 +82,7 @@ export const site = {
   },
   priceRange: "$$",
   images: {
-    logo: "/logo/optimized/mainlogo-512.webp",
+    logo: "/logo/optimized/eastern-massage-spa-logo-cropped.png",
     hero: "/photos/optimized/hero-1000.webp",
     heroLarge: "/photos/optimized/hero-1600.webp",
     services: "/photos/optimized/services-1200.webp",
