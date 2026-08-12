@@ -161,6 +161,7 @@ export const site = {
     languages: "[LANGUAGES_SPOKEN_IF_RELEVANT]",
     photoAlt: "Michelle, licensed massage therapist at Eastern Massage Spa",
   },
+  reviews: {
   sources: [
   {
     name: "Google",
