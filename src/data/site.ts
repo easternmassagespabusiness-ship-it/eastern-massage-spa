@@ -543,7 +543,8 @@ export const site = {
       name: "Aromatherapy",
       price: "$15",
       description:
-        "Essential oils are applied to promote relaxation and reduce stress.",
+        "description:
+  "A subtle aromatic experience designed to complement relaxation during your session.",
     },
   ] as AddonItem[],
   faqs: [
