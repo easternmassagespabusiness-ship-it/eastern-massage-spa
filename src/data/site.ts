@@ -51,7 +51,6 @@ type SiteFaq = {
 export const site = {
   name: "Eastern Massage Spa",
   legalName: "Eastern Massage Spa",
-  publicNamePlaceholder: "[OFFICIAL_BUSINESS_NAME]",
   url: "https://easternmassagespa.me",
   description:
     "Therapeutic massage in Issaquah, WA focused on personalized care and lasting relief, including deep tissue massage, relaxation massage, and recovery therapy.",
