@@ -44,7 +44,7 @@ export function publicReviewSummary(value?: string | null) {
 export function publicPractitionerBio(value?: string | null) {
   return publicText(
     value,
-    "Michelle is the primary practitioner at Eastern Massage Spa in Issaquah. Her full bio, credentials, and professional photo are being added soon."
+    "Michelle is a licensed massage therapist at Eastern Massage Spa in Issaquah, providing personalized therapeutic massage based on each client's needs."
   );
 }
 
