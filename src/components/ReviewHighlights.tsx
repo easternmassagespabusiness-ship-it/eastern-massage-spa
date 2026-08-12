@@ -67,13 +67,13 @@ export default function ReviewHighlights({
         <StarRow />
       </div>
 
-      <p className="mt-3 text-2xl font-semibold leading-none text-foreground">
-        {rating}
-      </p>
+<p className="mt-3 text-2xl font-semibold leading-none text-foreground">
+  {rating} on Google
+</p>
 
-      <p className="mt-2 text-sm font-semibold leading-5 text-muted">
-        average from {count} reviews
-      </p>
+<p className="mt-2 text-sm font-semibold leading-5 text-muted">
+  Trusted by {count} reviewers
+</p>
     </>
   );
 
