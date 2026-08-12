@@ -254,7 +254,7 @@ export const site = {
       seoTitle: "Deep Tissue Massage in Issaquah, WA|Eastern Massage Spa",
       metaDescription:
         "Deep tissue massage in Issaquah with focused firm pressue, dynamic cupping, and CBD therapy for stubborn tension and recovery needs.",
-      bookingLabel: "Book Advanced Recovery Therapy",
+      bookingLabel: "Reserve Your Session",
       bookingUrlPlaceholder: "[FRESHA_DEEP_TISSUE_BOOKING_URL]",
       primaryKeyword: "deep tissue massage Issaquah",
       description:
@@ -323,7 +323,7 @@ export const site = {
       seoTitle: "Therapeutic & Deep Tissue Massage in Issaquah, WA",
       metaDescription:
         "Targeted therapeutic and deep tissue massage in Issaquah for neck, back, shoulder, and muscle tension. Personalized pressure based on your needs.",
-      bookingLabel: "Book Therapeutic Massage",
+      bookingLabel: "Reserve Your Session",
       bookingUrlPlaceholder: "[FRESHA_TARGETED_THERAPEUTIC_BOOKING_URL]",
       primaryKeyword: "therapeutic massage Issaquah",
       description:
@@ -391,7 +391,7 @@ export const site = {
       seoTitle: "Relaxation Massage in Issaquah, WA",
       metaDescription:
         "Relaxation massage in Issaquah with light to moderate pressure to ease stress, calm the body, and support restorative self-care.",
-      bookingLabel: "Book Relaxation Massage",
+      bookingLabel: "Reserve Your Session",
       bookingUrlPlaceholder: "[FRESHA_RELAXATION_MASSAGE_BOOKING_URL]",
       primaryKeyword: "relaxation massage Issaquah",
       description:
@@ -459,7 +459,7 @@ export const site = {
       seoTitle: "Cupping Therapy in Issaquah, WA",
       metaDescription:
         "Cupping therapy in Issaquah using dynamic vaccum cupping to support muscle recovery, mobility, and targeted tension relief.",
-      bookingLabel: "Book Cupping Therapy",
+      bookingLabel: "Reserve Your Session",
       bookingUrlPlaceholder: "[FRESHA_CUPPING_THERAPY_BOOKING_URL]",
       primaryKeyword: "cupping therapy Issaquah",
       description:
