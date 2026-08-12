@@ -30,7 +30,7 @@ export default function TrustReviews({
 
           <div className="mt-7">
             <BookingLink ctaLocation={ctaLocation}>
-              Book Appointment
+              Reserve Your Session
             </BookingLink>
           </div>
         </div>
