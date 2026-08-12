@@ -217,7 +217,7 @@ profiles: {
       beforeAppointment: [
         "Share recent injuries, surgeries, pregnancy, medical conditions, skin sensitivities, and medications that may affect massage.",
         "Arrive with enough time to find the suite and settle in before your appointment.",
-        "Dynamic cupping and CBD therapy are part of the Advanced Recovery Therapy service listed in Fresha.",
+        "Dynamic cupping and CBD therapy are included in the Advanced Recovery Therapy service.",
       ],
       duringSession: [
         "Expect slower, more focused work on priority areas such as back, shoulders, hips, legs, or neck.",
