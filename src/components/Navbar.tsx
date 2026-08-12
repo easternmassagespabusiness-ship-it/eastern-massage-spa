@@ -21,7 +21,7 @@ export default function Navbar() {
       <nav aria-label="Primary" className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex min-h-[72px] items-center justify-between gap-4">
          <span className="relative block h-[64px] w-36 md:h-[80px] md:w-48">
-            <span className="relative block h-[52px] w-28 md:h-14 md:w-32">
+            <span className="relative block h-[64px] w-36 md:h-[80px] md:w-48">
               <Image
                 src={site.images.logo}
                 alt={`${site.name} logo`}
