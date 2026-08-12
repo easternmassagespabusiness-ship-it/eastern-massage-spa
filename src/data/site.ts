@@ -513,7 +513,7 @@ answer:
     {
       question: "What are your business hours?",
       answer:
-        "Eastern Massage Spa is open daily from 10:30 AM to 8:30 PM. Online booking shows the most current appointment availability.",
+        "Eastern Massage Spa is available by appointment daily from 10:30 AM to 8:30 PM. Online booking shows the most current appointment availability.",
     },
     {
       question: "How do I check availability for a massage appointment?",
