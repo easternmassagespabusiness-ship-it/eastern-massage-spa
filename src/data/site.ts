@@ -487,8 +487,8 @@ profiles: {
   faqs: [
     {
       question: "Do you accept same-day massage appointments in Issaquah?",
-      answer:
-        "Same-day appointments may appear in Fresha when Michelle has availability. Use online booking to view the latest openings.",
+answer:
+  "Same-day appointments may be available when Michelle has openings. Use online booking to view the latest availability.",
     },
     {
       question: "Which massage is best if I want deeper work?",
@@ -503,7 +503,7 @@ profiles: {
     {
       question: "What enhancements are available?",
       answer:
-        "Hot Stones, Advanced Cupping Therapy (Dynamic Vacuum), CBD Oil Enhancement, and Aromatherapy are available as session enhancements. Confirm availability in Fresha when booking.",
+        "Hot Stones, Advanced Cupping Therapy (Dynamic Vacuum), CBD Oil Enhancement, and Aromatherapy are available as session enhancements.",
     },
     {
       question: "Where is Eastern Massage Spa located?",
@@ -518,7 +518,7 @@ profiles: {
     {
       question: "How do I check availability for a massage appointment?",
       answer:
-        "Use Fresha online booking to view currently released times, compare services, and choose an appointment.",
+       "Use online booking to view currently available times, compare services, and choose an appointment.",
     },
   ] as SiteFaq[],
 };
