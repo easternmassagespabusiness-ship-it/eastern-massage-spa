@@ -1,5 +1,5 @@
 import { BookingLink, GiftCardLink, CTAGroup } from "./ActionLinks";
-import { DecorativeRule, ImageFrame, Shell } from "./DesignPrimitives";
+import { ImageFrame, Shell } from "./DesignPrimitives";
 import ReviewHighlights from "./ReviewHighlights";
 import { site } from "@/data/site";
 
@@ -9,7 +9,6 @@ export default function Hero() {
       <Shell className="py-14 md:py-20 lg:py-24">
         <div className="grid gap-12 lg:grid-cols-[1fr_0.9fr] lg:items-center">
           <div className="reveal-soft">
-            <DecorativeRule className="mb-5" />
 
             <p className="detail-label mb-4">
               Licensed Massage Therapy · Issaquah, WA
