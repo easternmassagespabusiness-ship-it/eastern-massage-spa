@@ -92,13 +92,27 @@ export default function Footer() {
             Reviews
           </Link>
 
-          <Link href="/privacy" className="text-muted hover:text-primary">
-            Privacy Policy
-          </Link>
+          <div className="flex items-center gap-2 text-muted md:hidden">
+            <Link href="/privacy" className="hover:text-primary">
+              Privacy Policy
+            </Link>
 
-          <Link href="/terms" className="text-muted hover:text-primary">
-            Terms of Service
-          </Link>
+            <span aria-hidden="true">·</span>
+
+            <Link href="/terms" className="hover:text-primary">
+              Terms of Service
+            </Link>
+          </div>
+
+          <div className="hidden flex-col gap-3 md:flex">
+            <Link href="/privacy" className="text-muted hover:text-primary">
+              Privacy Policy
+            </Link>
+
+            <Link href="/terms" className="text-muted hover:text-primary">
+              Terms of Service
+            </Link>
+          </div>
         </div>
 
         <div className="flex flex-col gap-2 md:gap-3">
