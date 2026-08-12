@@ -156,7 +156,7 @@ export const site = {
   "Michelle is a licensed massage therapist at Eastern Massage Spa in Issaquah, providing personalized therapeutic massage based on each client's needs.",
     longBio:
       "Michelle is a licensed massage therapist serving clients at Eastern Massage Spa in Issaquah. Her massage work is focused, responsive, and centered on the areas clients want addressed during the appointment.",
-    associations: "[PROFESSIONAL_ASSOCIATIONS]",
+    associations: "Associated Bodywork & Massage Professionals (ABMP)",
     languages: "English and Mandarin Chinese",
     photoAlt: "Michelle, licensed massage therapist at Eastern Massage Spa",
   },
