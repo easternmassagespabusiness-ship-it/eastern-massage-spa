@@ -31,6 +31,7 @@ export default function Navbar() {
                 loading="eager"
               />
             </span>
+            </span>
           </Link>
 
           <div className="hidden items-center gap-7 text-sm font-semibold text-muted md:flex">
