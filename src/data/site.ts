@@ -180,7 +180,7 @@ export const site = {
     ],
   },
 profiles: {
-  googleBusiness: "[GOOGLE_BUSINESS_PROFILE_URL]",
+  googleBusiness: "https://maps.app.goo.gl/xbt8rhjM4s9Lyw2t6?g_st=ic",
   fresha:
     "https://www.fresha.com/book-now/eastern-wellness-center-i9qpjgss/all-offer?share=true&pId=812456",
 },
