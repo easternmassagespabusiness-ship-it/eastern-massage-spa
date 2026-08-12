@@ -20,7 +20,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 border-b border-primary/10 bg-[rgba(255,253,248,0.94)] backdrop-blur">
       <nav aria-label="Primary" className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex min-h-[72px] items-center justify-between gap-4">
-          <Link href="/" className="flex items-center" aria-label="Eastern Massage Spa home">
+         <span className="relative block h-[64px] w-36 md:h-[80px] md:w-48">
             <span className="relative block h-[52px] w-28 md:h-14 md:w-32">
               <Image
                 src={site.images.logo}
