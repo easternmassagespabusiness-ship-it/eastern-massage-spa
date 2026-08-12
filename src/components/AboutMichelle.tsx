@@ -70,7 +70,7 @@ export default function AboutMichelle() {
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <BookingLink ctaLocation="homepage_about_michelle">
-              Book Appointment
+              Reserve Your Session
             </BookingLink>
 
             <Link
