@@ -152,7 +152,7 @@ export const site = {
     yearsExperience: "[MICHELLE_YEARS_EXPERIENCE]",
     credentials: "Licensed Massage Therapist",
     specialties: "Therapeutic massage, deep tissue massage, dynamic cupping, and relaxation massage",
-    approach: "[MICHELLE_APPROACH]",
+    approach: "Personalized, focused massage therapy tailored to each client's needs and areas of concern.",
     shortBio:
       shortBio:
   "Michelle is a licensed massage therapist at Eastern Massage Spa in Issaquah, providing personalized therapeutic massage based on each client's needs.",
