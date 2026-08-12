@@ -4,7 +4,7 @@ import { Section, Shell } from "./DesignPrimitives";
 export default function FinalCTA() {
   return (
     <Section className="bg-[var(--primary)] text-primary-foreground">
-      <Shell className="py-14 text-center md:py-16">
+      <Shell className="py-10 text-center md:py-12">
         <h2 className="mx-auto max-w-3xl font-serif text-4xl font-semibold leading-tight md:text-5xl">
           Ready to feel better?
         </h2>
