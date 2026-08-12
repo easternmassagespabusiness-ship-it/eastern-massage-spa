@@ -13,7 +13,7 @@ interface BookNowButtonProps {
 
 export default function BookNowButton({
   className,
-  children = "Book Now",
+  children = "Reserve Your Session",
   href = site.bookingUrl,
   serviceName,
   ctaLocation = "unspecified",
