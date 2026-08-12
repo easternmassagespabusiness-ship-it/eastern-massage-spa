@@ -74,7 +74,7 @@ export default function ServicePricingMenu({
                   serviceName={service.category}
                   ctaLocation={ctaLocation}
                 >
-                  {compact ? "Reserve Session" : service.bookingLabel}
+                  {compact ? "Reserve Your Session" : service.bookingLabel}
                 </BookingLink>
 
                 <Link
