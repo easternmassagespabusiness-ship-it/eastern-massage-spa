@@ -16,7 +16,7 @@ export default function FinalCTA() {
 
         <div className="mt-10 flex justify-center">
           <BookingLink ctaLocation="final_cta">
-            Book Appointment
+            Reserve Your Session
           </BookingLink>
         </div>
       </Shell>
