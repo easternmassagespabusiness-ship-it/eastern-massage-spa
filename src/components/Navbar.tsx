@@ -21,7 +21,7 @@ export default function Navbar() {
       <nav aria-label="Primary" className="mx-auto max-w-6xl px-4 sm:px-6">
  <div className="flex min-h-[110px] items-center justify-between gap-4">
 <Link href="/" aria-label="Eastern Massage Spa home">
-  <span className="relative block h-[100px] w-[110px] md:h-[110px] md:w-[120px]">
+<span className="relative block h-[100px] w-[110px] translate-y-[12px] md:h-[110px] md:w-[120px] md:translate-y-0">
 <span className="relative block h-[100px] w-[110px] md:h-[110px] md:w-[120px]">
               <Image
                 src={site.images.logo}
