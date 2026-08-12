@@ -9,12 +9,12 @@ export default function FinalCTA() {
           Ready to feel better?
         </h2>
 
-        <p className="mx-auto mt-6 max-w-2xl text-lg opacity-90">
+        <p className="mx-auto mt-4 max-w-2xl text-lg opacity-90">
           Book your appointment online and choose the massage experience that
           best fits your needs.
         </p>
 
-        <div className="mt-10 flex justify-center">
+        <div className="mt-6 flex justify-center">
           <BookingLink ctaLocation="final_cta">
             Reserve Your Session
           </BookingLink>
