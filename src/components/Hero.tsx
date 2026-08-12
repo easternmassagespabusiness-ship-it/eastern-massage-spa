@@ -1,6 +1,5 @@
 import { BookingLink, GiftCardLink, CTAGroup } from "./ActionLinks";
 import { ImageFrame, Shell } from "./DesignPrimitives";
-import ReviewHighlights from "./ReviewHighlights";
 import { site } from "@/data/site";
 
 export default function Hero() {
@@ -23,9 +22,6 @@ export default function Hero() {
             <p className="mt-5 max-w-2xl text-base leading-7 text-muted md:mt-6 md:text-lg md:leading-8">
               Personalized therapeutic massage in Issaquah, designed to relieve tension, restore mobility, and help you feel better beyond the session.
             </p>
-
-            <ReviewHighlights className="mt-7" />
-
 <CTAGroup className="mt-8">
   <BookingLink ctaLocation="homepage_hero">
     Reserve Your Session
