@@ -64,7 +64,7 @@ export default function ContactPage() {
             >
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <BookingLink ctaLocation="contact_page_hero">
-                  Book a Massage
+                  Reserve Your Session
                 </BookingLink>
               </div>
             </SectionHeading>
@@ -105,7 +105,7 @@ export default function ContactPage() {
               <h2 className="text-2xl font-semibold text-primary">Book online</h2>
               <div className="mt-5">
                 <BookingLink ctaLocation="contact_page_booking">
-                  Book a Massage
+                  Reserve Your Session
                 </BookingLink>
               </div>
             </SoftPanel>
