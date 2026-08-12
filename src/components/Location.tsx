@@ -76,7 +76,7 @@ export default function Location() {
                   ctaLocation="homepage_location"
                   className="w-full sm:w-auto"
                 >
-                  Book Appointment
+                  Reserve Your Session
                 </BookingLink>
               </div>
             </div>
