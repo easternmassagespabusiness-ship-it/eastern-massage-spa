@@ -19,8 +19,9 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-primary/10 bg-[rgba(255,253,248,0.94)] backdrop-blur">
       <nav aria-label="Primary" className="mx-auto max-w-6xl px-4 sm:px-6">
-<div className="flex min-h-[110px] items-center justify-between gap-4">
-<span className="relative block h-[100px] w-[110px] md:h-[110px] md:w-[120px]">
+ <div className="flex min-h-[110px] items-center justify-between gap-4">
+<Link href="/" aria-label="Eastern Massage Spa home">
+  <span className="relative block h-[100px] w-[110px] md:h-[110px] md:w-[120px]">
 <span className="relative block h-[100px] w-[110px] md:h-[110px] md:w-[120px]">
               <Image
                 src={site.images.logo}
