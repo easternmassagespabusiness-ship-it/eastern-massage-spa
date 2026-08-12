@@ -1,6 +1,6 @@
 export default function Packages() {
   return (
-    <section className="py-16 px-6">
+    <section className="py-12 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-semibold">
@@ -69,7 +69,7 @@ export default function Packages() {
           </div>
 
         </div>
-     <div className="text-center mt-8">
+     <div className="text-center mt-6">
   <a
     href="https://www.fresha.com/book-now/eastern-wellness-center-i9qpjgss/packages?share=true&pId=812456"
     target="_blank"
