@@ -27,20 +27,11 @@ export default function ServicePricingMenu({
 }: ServicePricingMenuProps) {
   return (
     <div className="grid gap-10">
-      <section aria-labelledby="massage-menu-heading">
-        <div className="mb-8 text-center">
-          <h2 id="massage-menu-heading" className="text-3xl font-semibold text-primary">
-            Services & Pricing
-          </h2>
-          <p className="mx-auto mt-3 max-w-2xl leading-7 text-muted">
-            Clear, personalized massage therapy options in a quiet private studio.
-          </p>
-        </div>
-
-        <div className="grid gap-6 lg:grid-cols-2">
+      <section>
+  <div className="grid gap-6 lg:grid-cols-2">
           {site.services.map((service) => (
             <article
-              key={service.slug}
+             key={service.slug}
               className="rounded-2xl border border-primary/10 bg-[var(--surface)] p-6 shadow-[0_10px_30px_rgba(36,53,44,0.07)]"
             >
               <div className="mb-5 flex items-start justify-between gap-4">
