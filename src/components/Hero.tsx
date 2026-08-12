@@ -14,7 +14,7 @@ export default function Hero() {
               Licensed Massage Therapy · Issaquah, WA
             </p>
 
-            <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] text-primary md:text-5xl lg:text-6xl">
+            <h1 className="max-w-3xl text-3xl font-bold leading-[1.08] text-primary md:text-5xl lg:text-6xl">
               Therapeutic Massage
               <br />
               Designed Around You.
