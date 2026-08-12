@@ -309,7 +309,7 @@ profiles: {
         {
           question: "How is Targeted Therapeutic Massage different from Advanced Recovery Therapy?",
           answer:
-            "Targeted Therapeutic Massage uses medium to firm pressure for focused tension care. Advanced Recovery Therapy is the longer, more intensive Fresha-listed option and includes dynamic cupping and CBD therapy.",
+            "Targeted Therapeutic Massage uses medium to firm pressure for focused tension care. Advanced Recovery Therapy is the longer, more intensive option and includes dynamic cupping and CBD therapy.",
         },
         {
           question: "What kind of pressure should I expect?",
