@@ -38,7 +38,7 @@ export default function Footer() {
             {publicHoursText(site.hoursText)}
           </p>
           <div className="mt-5 flex flex-col gap-3 sm:flex-row">
-            <BookingLink ctaLocation="footer">Book a Massage</BookingLink>
+            <BookingLink ctaLocation="footer">Reserve Your Session</BookingLink>
           </div>
         </div>
 
