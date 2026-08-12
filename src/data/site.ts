@@ -196,18 +196,11 @@ export const site = {
     package: "[PACKAGE_POLICY]",
     intake: "[INTAKE_POLICY]",
   },
-  profiles: {
-    googleBusiness: "[GOOGLE_BUSINESS_PROFILE_URL]",
-    appleMaps: "[APPLE_MAPS_URL]",
-    bingPlaces: "[BING_PLACES_URL]",
-    yelp: "[YELP_URL]",
-    fresha:
-      "https://www.fresha.com/book-now/eastern-wellness-center-i9qpjgss/all-offer?share=true&pId=812456",
-    facebook: "[FACEBOOK_URL]",
-    instagram: "[INSTAGRAM_URL]",
-    linkedIn: "[LINKEDIN_URL_IF_ANY]",
-    other: "[OTHER_OFFICIAL_PROFILE_URLS]",
-  },
+profiles: {
+  googleBusiness: "[GOOGLE_BUSINESS_PROFILE_URL]",
+  fresha:
+    "https://www.fresha.com/book-now/eastern-wellness-center-i9qpjgss/all-offer?share=true&pId=812456",
+},
   services: [
     {
       slug: "deep-tissue-therapy",
@@ -576,12 +569,5 @@ export function getServiceBookingUrl(service: Service) {
 export function getOfficialProfileUrls() {
   return [
     site.profiles.googleBusiness,
-    site.profiles.appleMaps,
-    site.profiles.bingPlaces,
-    site.profiles.yelp,
-    site.profiles.fresha,
-    site.profiles.facebook,
-    site.profiles.instagram,
-    site.profiles.linkedIn,
   ].filter((url) => url.startsWith("http"));
 }
