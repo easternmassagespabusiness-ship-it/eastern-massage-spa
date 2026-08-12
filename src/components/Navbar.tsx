@@ -49,7 +49,7 @@ export default function Navbar() {
 
           <div className="hidden items-center gap-2 md:flex">
             <BookingLink ctaLocation="header" className="px-4 py-2.5">
-              Book a Massage
+              Reserve Your Session
             </BookingLink>
           </div>
 
@@ -89,7 +89,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <BookingLink ctaLocation="mobile_menu" className="mt-2 w-full">
-                Book a Massage
+                Reserve Your Session
               </BookingLink>
             </div>
           </div>
