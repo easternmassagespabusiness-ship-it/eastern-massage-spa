@@ -215,7 +215,7 @@ profiles: {
       description:
         "High-performance treatment for clients who want focused recovery work, firmer pressure, and clear session goals.",
       intro:
-        "Advanced Recovery Therapy is the most intensive Fresha-listed massage service at Eastern Massage Spa. It combines focused deep tissue work, dynamic cupping, and CBD therapy for clients who want a firmer, results-focused appointment.",
+        "Advanced Recovery Therapy is the most intensive massage service at Eastern Massage Spa. It combines focused deep tissue work, dynamic cupping, and CBD therapy for clients who want a firmer, results-focused appointment.",
       benefits: [
         "Uses focused pressure and slower bodywork for areas that feel tight, overworked, or restricted.",
         "May help support temporary relief from everyday muscle tension and physical stress.",
@@ -258,7 +258,7 @@ profiles: {
         {
           question: "What makes Advanced Recovery Therapy different?",
           answer:
-            "Advanced Recovery Therapy is the most intensive Fresha-listed massage service. It combines deep tissue precision, dynamic cupping, and CBD therapy in a longer results-focused session.",
+            "Advanced Recovery Therapy is the most intensive massage service. It combines deep tissue precision, dynamic cupping, and CBD therapy in a longer results-focused session.",
         },
         {
           question: "Is Advanced Recovery Therapy only for athletes?",
@@ -439,7 +439,7 @@ profiles: {
       beforeAppointment: [
         "Tell Michelle about skin conditions, bruising, blood thinners, pregnancy, recent injuries, or medical conditions before cupping.",
         "Avoid booking cupping over irritated skin, open wounds, sunburn, or areas that should avoid suction.",
-        "This Fresha-listed cupping service is a standalone 30-minute session.",
+        "This cupping service is a standalone 30-minute session.",
       ],
       duringSession: [
         "The session typically focuses on a smaller number of priority areas.",
@@ -510,7 +510,7 @@ profiles: {
     {
       question: "Which massage is best if I want deeper work?",
       answer:
-        "Advanced Recovery Therapy is the most intensive Fresha-listed option and includes deep tissue precision, dynamic cupping, and CBD therapy. Targeted Therapeutic Massage uses medium to firm pressure for focused tension care, while Essential Relaxation Massage is intended for lighter-pressure relaxation and general wellness.",
+        "Advanced Recovery Therapy is the most intensive option and includes deep tissue precision, dynamic cupping, and CBD therapy. Targeted Therapeutic Massage uses medium to firm pressure for focused tension care, while Essential Relaxation Massage is intended for lighter-pressure relaxation and general wellness.",
     },
     {
       question: "Can I book cupping therapy by itself?",
