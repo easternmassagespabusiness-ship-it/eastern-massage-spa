@@ -161,27 +161,12 @@ export const site = {
     languages: "[LANGUAGES_SPOKEN_IF_RELEVANT]",
     photoAlt: "Michelle, licensed massage therapist at Eastern Massage Spa",
   },
-  reviews: {
-    summary:
-      "Reviewed by local clients on Google, Fresha, and Birdeye, including a 5.0 Fresha rating from 32 reviews.",
-    sources: [
-      {
-        name: "Google",
-        rating: "4.9",
-        count: "89",
-        url: "https://www.google.com/search?q=eastern+massage+spa+issaquah&rlz=1C5CHFA_enUS1011US1011&oq=eastern+massage+spa+issaquah&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyCAgCEAAYFhgeMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoFMgYIBRBFGDwyBggGEEUYPTIGCAcQRRg90gEIMzQ0MGowajSoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x54906f0c2e9ae0ad:0xccb0e9a6e2361403,1,,,,",
-      },
-      {
-        name: "Fresha",
-        rating: "5.0",
-        count: "32",
-        url: "https://www.fresha.com/book-now/eastern-wellness-center-i9qpjgss/all-offer?share=true&pId=812456",
-      },
-      {
-        name: "Birdeye",
-        rating: "4.8",
-        count: "54",
-        url: "https://reviews.birdeye.com/eastern-massage-spa-170070692127766",
+  sources: [
+  {
+    name: "Google",
+    rating: "4.9",
+    count: "89",
+    url: "https://www.google.com/search?q=eastern+massage+spa+issaquah&rlz=1C5CHFA_enUS1011US1011&oq=eastern+massage+spa+issaquah&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyCAgCEAAYFhgeMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoFMgYIBRBFGDwyBggGEEUYPTIGCAcQRRg90gEIMzQ0MGowajSoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x54906f0c2e9ae0ad:0xccb0e9a6e2361403,1,,,,",
       },
     ],
     testimonials: [
@@ -190,18 +175,6 @@ export const site = {
         source: "Google",
         quote:
           "Highly recommend Eastern Massage and Michelle's work is excellent! She listened where my areas of focus were and really spent time on those areas. This was the best massage I've had in a long time. The location was great, convenient, peaceful and good parking.",
-      },
-      {
-        author: "Frank S",
-        source: "Fresha",
-        quote:
-          "Such an amazing experience! Clean, spacious, well appointed rooms with top end massage tables. Experienced professionals that are polite, thoughtful, and caring. Fair pricing, excellent massage, easy parking, and a luxurious experience.",
-      },
-      {
-        author: "KROenke Ficker",
-        source: "Birdeye",
-        quote:
-          "The session was targeted and responsive. I left with real results and highly recommend Eastern Massage Spa for therapeutic work.",
       },
     ],
   },
