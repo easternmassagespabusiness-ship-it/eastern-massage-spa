@@ -6,7 +6,7 @@ import { site } from "@/data/site";
 export default function Hero() {
   return (
     <section className="retreat-hero bg-[var(--background)]">
-      <Shell className="py-14 md:py-20 lg:py-24">
+      <Shell className="py-10 md:py-20 lg:py-24">
         <div className="grid gap-12 lg:grid-cols-[1fr_0.9fr] lg:items-center">
           <div className="reveal-soft">
 
