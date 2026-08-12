@@ -179,24 +179,6 @@ export const site = {
       },
     ],
   },
-  locationDetails: {
-    parking: "[PARKING_INSTRUCTIONS]",
-    buildingEntry: "[BUILDING_ENTRY_INSTRUCTIONS]",
-    suiteDirections: "[SUITE_DIRECTIONS]",
-    accessibility: "[ACCESSIBILITY_NOTES]",
-    landmarks: "[NEARBY_LANDMARKS]",
-    transit: "[TRANSIT_OR_PARKING_NOTES]",
-    appointmentType: "[APPOINTMENT_ONLY_OR_WALK_IN]",
-  },
-  policies: {
-    cancellation: "[CANCELLATION_POLICY]",
-    lateArrival: "[LATE_ARRIVAL_POLICY]",
-    noShow: "[NO_SHOW_POLICY]",
-    refund: "[REFUND_POLICY]",
-    giftCard: "[GIFT_CARD_POLICY]",
-    package: "[PACKAGE_POLICY]",
-    intake: "[INTAKE_POLICY]",
-  },
 profiles: {
   googleBusiness: "[GOOGLE_BUSINESS_PROFILE_URL]",
   fresha:
