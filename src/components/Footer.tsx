@@ -2,18 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { BookingLink } from "./ActionLinks";
 import { getServiceUrl, site } from "@/data/site";
-import { publicHoursText, publicUrl } from "@/utils/publicContent";
+import { publicHoursText } from "@/utils/publicContent";
 
 export default function Footer() {
-  const reviewLinks = site.reviews.sources
-    .map((source) => ({ name: source.name, url: publicUrl(source.url) }))
-    .filter(
-      (source): source is { name: string; url: string } => Boolean(source.url)
-    );
-
   return (
     <footer className="border-t border-primary/10 bg-[var(--surface)] py-8 text-sm md:py-12">
-      <div className="mx-auto grid max-w-6xl gap-7 px-4 sm:px-6 md:grid-cols-2 md:gap-10 xl:grid-cols-[1.25fr_1fr_1fr_1fr]">
+      <div className="mx-auto grid max-w-6xl gap-7 px-4 sm:px-6 md:grid-cols-2 md:gap-10 xl:grid-cols-[1.25fr_1fr_1fr]">
         <div>
           <Link
             href="/"
@@ -113,22 +107,6 @@ export default function Footer() {
               Terms of Service
             </Link>
           </div>
-        </div>
-
-        <div className="flex flex-col gap-2 md:gap-3">
-          <span className="font-semibold text-primary">Review sources</span>
-
-          {reviewLinks.map((source) => (
-            <a
-              key={source.name}
-              href={source.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted hover:text-primary"
-            >
-              {source.name}
-            </a>
-          ))}
         </div>
       </div>
 
