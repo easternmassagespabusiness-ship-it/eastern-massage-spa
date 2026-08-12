@@ -28,7 +28,7 @@ export default function Hero() {
 
 <CTAGroup className="mt-8">
   <BookingLink ctaLocation="homepage_hero">
-    Book Online
+    Reserve Your Session
   </BookingLink>
 
   <GiftCardLink ctaLocation="homepage_hero">
