@@ -117,7 +117,7 @@ export const site = {
     },
     {
       label: "Thursday",
-      hours: "10:30 AM - 0:30 PM",
+      hours: "10:30 AM - 8:30 PM",
       days: ["Thursday"],
       opens: "10:30",
       closes: "20:30",
