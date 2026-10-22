@@ -48,7 +48,6 @@ export function GiftCardLink({
 }) {
   return (
     <TrackedLink
-   <TrackedLink
   href="https://www.fresha.com/book-now/eastern-wellness-center-i9qpjgss/gift-cards?share=true&pId=812456"
   target="_blank"
   rel="noopener noreferrer"
