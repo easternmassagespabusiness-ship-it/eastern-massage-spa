@@ -30,6 +30,9 @@ export default function Hero() {
   <GiftCardLink ctaLocation="homepage_hero">
     Send an e-Gift Card
   </GiftCardLink>
+  <p className="text-center text-xs font-medium text-[#8A6A32]">
+  Perfect for birthdays & holidays
+</p>
 </CTAGroup>
           </div>
 
