@@ -28,7 +28,7 @@ export default function Hero() {
   </BookingLink>
 
   <GiftCardLink ctaLocation="homepage_hero">
-    Buy a Gift Card
+    Send an e-Gift Card
   </GiftCardLink>
 </CTAGroup>
           </div>
