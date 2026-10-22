@@ -51,7 +51,9 @@ export function GiftCardLink({
       href="https://www.fresha.com/book-now/eastern-wellness-center-i9qpjgss/gift-cards?share=true&pId=812456"
       target="_blank"
       rel="noopener noreferrer"
-      className={cx(buttonStyles.primary, className)}
+    <p className="text-center text-xs font-medium text-[#8A6A32]">
+  Perfect for birthdays & holidays
+</p>
       eventName="gift_card_click"
       trackingParams={{ cta_location: ctaLocation }}
     >
