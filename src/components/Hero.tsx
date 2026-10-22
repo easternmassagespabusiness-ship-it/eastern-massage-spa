@@ -31,7 +31,7 @@ export default function Hero() {
     Send an e-Gift Card
   </GiftCardLink>
   </CTAGroup>
-            <p className="text-center text-xs font-medium text-[#8A6A32]">
+            <p className="mt-1 text-center text-sm font-semibold text-[#8A6A32]">
   Perfect for birthdays & holidays
 </p>
           </div>
