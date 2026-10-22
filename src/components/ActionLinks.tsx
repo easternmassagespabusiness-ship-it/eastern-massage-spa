@@ -48,17 +48,20 @@ export function GiftCardLink({
 }) {
   return (
     <TrackedLink
-      href="https://www.fresha.com/book-now/eastern-wellness-center-i9qpjgss/gift-cards?share=true&pId=812456"
-      target="_blank"
-      rel="noopener noreferrer"
-    <p className="text-center text-xs font-medium text-[#8A6A32]">
-  Perfect for birthdays & holidays
-</p>
-      eventName="gift_card_click"
-      trackingParams={{ cta_location: ctaLocation }}
-    >
-      {children}
-    </TrackedLink>
+   <TrackedLink
+  href="https://www.fresha.com/book-now/eastern-wellness-center-i9qpjgss/gift-cards?share=true&pId=812456"
+  target="_blank"
+  rel="noopener noreferrer"
+  className={cx(
+    buttonStyles.primary,
+    "bg-[#7A1F2B] hover:bg-[#651923] ring-2 ring-[#B68A4C]/40",
+    className
+  )}
+  eventName="gift_card_click"
+  trackingParams={{ cta_location: ctaLocation }}
+>
+  {children}
+</TrackedLink>
   );
 }
 export function DirectionsLink({
